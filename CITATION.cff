@@ -41,6 +41,7 @@ keywords:
   - ODS 6
 
 repository-code: "https://github.com/adelasantosd/huellalegislativa-2030"
+doi: "10.5281/zenodo.21631277"
 
 references:
   - type: software
