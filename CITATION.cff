@@ -13,14 +13,19 @@ abstract: >
   del derecho internacional. No constituye dictamen jurídico ni evaluación de
   cumplimiento. Incluye el ejemplo dorado validado por la autora (Ley General de
   Aguas frente al ODS 6 y el derecho humano al agua).
-type: dataset
+
+type: software
+
 authors:
   - family-names: "Santos Domínguez"
     given-names: "Adela Beatriz"
-    orcid: "https://orcid.org/TODO-0000-0000-0000-0000"
-version: "0.1.0"
-date-released: "2026-07-26"
-license: CC-BY-4.0
+    orcid: "https://orcid.org/0000-0002-8691-0544"
+
+version: "1.0.2"
+date-released: "2026-07-27"
+
+license: "CC-BY-4.0"
+
 keywords:
   - NormTrace
   - Agenda 2030
@@ -34,15 +39,15 @@ keywords:
   - derechos humanos
   - Ley General de Aguas
   - ODS 6
-repository-code: "https://github.com/Adelasantos12/observatorio-legislativo-ODS"
+
+repository-code: "https://github.com/adelasantosd/huellalegislativa-2030"
+
 references:
-  # Stack base reutilizado (Political Watch, AGPL-3.0).
   - type: software
     title: "escáner2030 / stack tipi (Political Watch)"
     notes: "Base de etiquetado por diccionario y stack FastAPI/Vue, AGPL-3.0."
     repository-code: "https://github.com/politicalwatch"
-  # Instancias previas del marco NormTrace (misma autora), en Zenodo.
-  # Datos verificados; solo falta el número de DOI de cada registro (TODO).
+
   - type: software
     title: "NormTrace-CRPD: A systematic tool for assessing domestic normative alignment with the Convention on the Rights of Persons with Disabilities"
     version: "2.1.0"
@@ -51,7 +56,7 @@ references:
     authors:
       - family-names: "Santos Domínguez"
         given-names: "Adela Beatriz"
-    doi: "TODO-10.5281/zenodo.XXXXXXX"
+
   - type: software
     title: "NormTrace-IHR: Legal Internalisation Mapping Infrastructure for International Health Regulations"
     version: "1.0.0"
@@ -59,7 +64,7 @@ references:
     authors:
       - family-names: "Santos Domínguez"
         given-names: "Adela Beatriz"
-    doi: "TODO-10.5281/zenodo.XXXXXXX"
+
   - type: software
     title: "NormTrace-Political Rights: Legal-Institutional Activation Mapping of Political Participation Rights in Mexico and Costa Rica"
     version: "0.1.2"
@@ -67,4 +72,3 @@ references:
     authors:
       - family-names: "Santos Domínguez"
         given-names: "Adela Beatriz"
-    doi: "TODO-10.5281/zenodo.XXXXXXX"
